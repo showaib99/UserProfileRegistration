@@ -9,7 +9,7 @@
     app:cardCornerRadius="15dp"
     app:cardElevation="15dp"
     app:cardMaxElevation="15dp"
-    tools:context=".SingleProfileActivity">
+    tools:context=".viwes.SingleProfileActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
