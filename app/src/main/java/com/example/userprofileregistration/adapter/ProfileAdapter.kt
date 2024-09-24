@@ -3,6 +3,7 @@ package com.example.userprofileregistration.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
@@ -31,8 +32,8 @@ class ProfileAdapter() :ListAdapter<UserProfile, ProfileAdapter.ProfileViewHolde
         private val profileDOB:TextView = itemView.findViewById(R.id.userDOBTxt)
         private val profileDistrict:TextView = itemView.findViewById(R.id.userDistrictTxt)
         private val profileMobile:TextView = itemView.findViewById(R.id.userMobileTxt)
-        private val updateBtn:TextView = itemView.findViewById(R.id.editBtn)
-        private val deleteBtn:TextView = itemView.findViewById(R.id.deleteBtn)
+        private val updateBtn:ImageButton = itemView.findViewById(R.id.editBtn)
+        private val deleteBtn:ImageButton = itemView.findViewById(R.id.deleteBtn)
 
 
         fun bind(userProfile: UserProfile){

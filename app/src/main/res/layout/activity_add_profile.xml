@@ -37,7 +37,7 @@
             app:layout_constraintStart_toStartOf="@id/profileNameEt"
             app:layout_constraintTop_toBottomOf="@id/profileNameEt" />
         <EditText
-            android:id="@+id/profileDOPEt"
+            android:id="@+id/profileDOBEt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -53,9 +53,9 @@
             android:layout_marginTop="20dp"
             android:hint="Enter District Name"
             android:inputType="text"
-            app:layout_constraintEnd_toEndOf="@id/profileDOPEt"
-            app:layout_constraintStart_toStartOf="@id/profileDOPEt"
-            app:layout_constraintTop_toBottomOf="@id/profileDOPEt" />
+            app:layout_constraintEnd_toEndOf="@id/profileDOBEt"
+            app:layout_constraintStart_toStartOf="@id/profileDOBEt"
+            app:layout_constraintTop_toBottomOf="@id/profileDOBEt" />
         <EditText
             android:id="@+id/profileMobileEt"
             android:layout_width="0dp"

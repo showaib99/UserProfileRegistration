@@ -14,7 +14,7 @@ class UserProfileViewModel(application: Application):AndroidViewModel(applicatio
     private val repository:UserProfileRepository
 
     init {
-        val userProfileDao = UserDatabase.getDatabase(application).userProfileDao()
+        val userProfileDao = UserDatabase.getDatabase(application).UserProfileDao()
         repository = UserProfileRepository(userProfileDao)
     }
 
@@ -39,6 +39,8 @@ class UserProfileViewModel(application: Application):AndroidViewModel(applicatio
             repository.insert(userProfile)
         }
     }
+
+
 
 
 }
