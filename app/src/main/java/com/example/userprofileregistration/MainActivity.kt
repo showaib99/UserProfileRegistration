@@ -1,5 +1,6 @@
 package com.example.userprofileregistration
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -13,7 +14,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
+        listButton = findViewById(R.id.showUserListBtn)
+        listButton.setOnClickListener{
+            startActivity(Intent(this, ProfileListActivity::class.java))
+            finish()
+        }
 
     }
 }

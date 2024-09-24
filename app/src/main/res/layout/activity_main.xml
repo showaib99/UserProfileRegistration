@@ -4,21 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:padding="10dp"
     android:layout_height="match_parent"
+    android:padding="10dp"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/welcomeTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="304dp"
-        android:text="Welcome to Iser Profile Registration App"
+        android:layout_marginTop="204dp"
+        android:text="Welcome to DIPTI"
         android:textAlignment="center"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,8 +35,10 @@
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.279"
         app:layout_constraintStart_toStartOf="@+id/welcomeTxt"
         app:layout_constraintTop_toBottomOf="@+id/welcomeTxt"
+        app:layout_constraintVertical_bias="0.331"
         app:strokeColor="@color/black"
         app:strokeWidth="1dp" />
 
